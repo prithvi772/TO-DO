@@ -21,8 +21,3 @@ This mini project helps users manage daily tasks — add, edit, delete, and stor
 - **CSS3 / Bootstrap 5** – Styling and responsive layout  
 - **JavaScript (ES6)** – Functionality and logic  
 - **LocalStorage API** – Persistent data storage
-
----
-
-## 📂 Project Structure
-
