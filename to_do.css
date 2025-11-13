@@ -3,53 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px; 
-    /* padding: 30px; */
-    
-}
-input{
+input[type="text"]{
     border-radius: 10px;
+    height: 50px;
     width: 400px;
-    height: 40px;
-}
-.btn{
-    width: 60px;
-    height: 40px;
-}
-.un {
-    display: flex;
-    flex-direction: column;
-    
-    align-items: center;
-}
-.hello{
-    display: flex;
-    
-    
-    align-items: center;
-    
-}
-.hi{
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
 
 }
-.order{
-    width: 19px;
-    height: 30px;
+input::placeholder{
+    text-align: center;
+    font-size: 25px;
 }
-input[type="checkbox"]{
-    margin-top: 2px;
-    width: 15px;
-    height: 15px;
+
+.myborder{
+    border:2px solid black;
 }
-.whole{
-    background-color: aqua;
+.bord{
+    border:4px dotted pink;
+}
+ul{
+    list-style: none;
+}
+
+/* .chk{
+    appearance: none;
+    width: 25px;
+    height: 20px;
+    border-radius: 2px;
+    border: solid 2px black;
+    cursor: pointer;
+    background-color: aliceblue;
+} */
+.contain{
+   
+    min-height: 70vh;
+    
+}
+body{
+background:linear-gradient(to right bottom,#4e3ecd,#eb77e6);
+height: 100vh;
+}
+
+.box{
+    margin-inline: 250px;
+    padding-inline:2px;
+    width: 50%;
+    padding-block: 50px;
+    /* border:4px; */
+    /* border-color: rgb(243, 28, 46); */
+    border-style:solid;
+    background-color: rgb(228, 214, 55);
+
+}
+.lis{
+    width: 50%;
+    display: flex;
+    justify-content:flex-start;
+    gap:10px;
+}
+h3{
+    background-color: rgb(109, 201, 229);
+}
+button{
+    width: 10%;
+    height: 20%;
+    border-radius: 10px;
 }
